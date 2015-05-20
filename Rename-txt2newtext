@@ -1,3 +1,4 @@
+#rename *.txt to *.text
 for file in *.txt; do
   mv "$file" "`basename $file .txt`.newtxt"
 done
